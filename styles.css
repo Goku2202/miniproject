@@ -1,0 +1,43 @@
+body {
+    background-color: #f4f6f9; /* Light gray background */
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+h2, h3 {
+    color: #2c3e50;
+}
+
+.age-button, .survey-button, .nav-button {
+    max-width: 600px; /* Adjust the width as needed */
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    border: 2px solid #fff; /* White border */
+}
+
+.age-button:hover, .survey-button:hover, .nav-button:hover {
+    background-color: #fff; /* White background on hover */
+    color: #000; /* Black text on hover */
+    border: 2px solid #000; /* Black border on hover */
+}
+
+.age-button {
+    max-width: 300px; /* Adjust the width as needed */
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    border: 2px solid #fff; /* White border */
+}
